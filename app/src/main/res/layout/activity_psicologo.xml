@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Psicologo.PsicologoActivity"
+    android:background="@drawable/background_design">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/conversationList"
+        android:dividerHeight="12dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="12dp">
+    </ListView>
+    <TextView
+        android:id="@+id/empty_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:text="Não há conversas disponíveis"
+        android:textAlignment="center"
+        android:textColor="#0288D1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center">
+    </TextView>
+
+</android.support.constraint.ConstraintLayout>

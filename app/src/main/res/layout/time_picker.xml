@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginLeft="26dp">
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="De"
+        android:background="@drawable/button_design"
+        android:textColor="#fff"
+        android:id="@+id/buttonDe"
+        android:layout_marginHorizontal="8dp"/>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="Até"
+        android:background="@drawable/button_design"
+        android:textColor="#fff"
+        android:id="@+id/buttonAte" />
+</LinearLayout>

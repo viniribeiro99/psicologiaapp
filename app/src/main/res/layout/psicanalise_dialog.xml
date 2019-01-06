@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:gravity="center"
+            android:text="Psicanálise"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:text="Técnica"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:text="O analista adota uma atitude neutra, sentando-se às costas do paciente, não havendo, portanto,
+ um contanto visual direto. O paciente é orientado a expressar livremente e sem censura os seus pensamentos, sentimentos, fantasias,
+ sonhos, imagens, assim como as associações que lhe ocorrem. De tempos em tempos o terapeuta interrompe as associações do paciente,
+fazendo-o observar determinadas conexões entre fatos de sua vida mental (interpretação), particulamente emoções ou fantasias relacionadas com a pessoa
+ do terapeuta (transferência), que passam despercebidas, e refletir sobre o seu significado subjacente (inconsciente)."
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Indicada para" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:textSize="16sp"
+            android:text="Tratamento de problemas de natureza crônica, cuja origem situa-se em dificuldades ocorridas na infância,
+em especial nas relações com os pais, transtornos leves ou moderados de personalidade e conflitos internos que interferem nas relações
+ interpessoas."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Frequência e duração do tratamento" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:textSize="16sp"
+            android:text="3 a 5 sessões por semana de 45 a 50 minutos por tempo indeterminado."/>
+    </LinearLayout>
+</ScrollView>

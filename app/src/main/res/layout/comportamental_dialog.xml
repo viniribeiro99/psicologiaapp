@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:gravity="center"
+            android:text="Terapia comportamental"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:text="Técnica"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:text="Realiza-se inicialmente uma avaliação bem detalhada dos problemas do paciente: quais os sintomas, as condições
+que determinaram seu aparecimento, seus atecedentes e suas consequências, bem como eventuais desencadeantes. Também são avaliadas as situações
+ nas quais se manifestam, fatores que auxiliam a mantê-lo e os mecanismos desenvolvidos pelo paciente para diminuir a ansiedade. Esse processo
+ é denominado análise comportamental. A partir disso, o tratamento é iniciado utilizando técnicas como exposição, prevenção de respostas,
+modelação, reforço negativo e positivo, extinção, terapia aversiva, relaxamento muscular e respiração, reversão de hábitos e treino de
+habilidades sociais."
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Indicada para" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:textSize="16sp"
+            android:text="Tratamento de fobias como a agorafobia, ansiedade ou fobia social, transtornos alimentares, transtorno obssessivo-
+            compulsivo, disfunções sexuais, dependência química e estresse pós-traumáticos."/>
+
+    </LinearLayout>
+</ScrollView>

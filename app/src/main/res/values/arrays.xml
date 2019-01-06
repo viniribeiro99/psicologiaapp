@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="methodologies">
+        <item>Selecione uma metodologia</item>
+        <item>Psicanálise</item>
+        <item>Terapia comportamental</item>
+        <item>Terapia cognitiva</item>
+    </string-array>
+</resources>
